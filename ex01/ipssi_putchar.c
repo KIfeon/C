@@ -1,6 +1,9 @@
 #include <unistd.h>
 
-void ipssi_putchar(char c)
+void	ipssi_putchar(void)
 {
-    write(1, &c, 1);
+	char	c;
+
+	c = 'A';
+	write(1, &c, 1);
 }
