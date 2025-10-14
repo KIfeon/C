@@ -20,7 +20,7 @@ void	ipssi_rev_int_tab(int *tableau, int taille)
 
 int	main(void)
 {
-	int	tab[4];
+	int		tab[4];
 	char	c;
 
 	tab[4] = {1, 2, 3, 4};
