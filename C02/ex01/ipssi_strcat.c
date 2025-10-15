@@ -1,9 +1,7 @@
-#include <stddef.h>
-
-char	*ipssi_strcat(char *dest, const char *src)
+char	*ipssi_strcat(char *dest, char *src)
 {
-	size_t	i;
-	size_t	j;
+	int	i;
+	int	j;
 
 	i = 0;
 	j = 0;
